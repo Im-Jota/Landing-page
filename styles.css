@@ -58,13 +58,15 @@ html{
 	margin: auto;
 	padding: 7rem 1rem;
 	display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
   align-items: center;
   gap: 2rem;
 }
 
 .heroLeft {
-  flex: 2 2 auto;
-  min-width: 340px;
+  flex: 1 1 auto;
+  width: 340px;
 }
 
 .heroLeft > h1 {
@@ -87,8 +89,8 @@ html{
 }
 
 .heroRight {
-  flex: 1 1 auto;
-  max-width: 480px;
+  flex: 2 2 auto;
+  max-width: 500px;
   height: 260px;
   overflow: hidden;
   display: flex;
@@ -114,6 +116,7 @@ main {
   align-items: center;
   gap: 2rem;
   color: var(--backgroundHero);
+  text-align: center;
 }
 
 .information h3 {
